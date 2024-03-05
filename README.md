@@ -30,7 +30,7 @@
 </tr>
 <tr>
 <td><img height="60" src="https://img.icons8.com/3d-fluency/94/null/video-card.png" style="float: left;" width="60"/><h4>GPU<h4></h4></h4></td>
-<td colspan="2">Any compatible Intel, AMD or Nvidia GPU. <br/> GPU Performance may vary depending on its compatibility with Windows Subsystem For Android™  <br/><h4>Users with Intel HD Graphics 530 and older</h4><h5> WSA may not start or graphical glitches will occur when Intel HD Graphics 530 and Older iGPUs are used. This is a known issue, but unfortunately there are no fixes that I currently know of, plus, these GPUs are too old and do not meet Windows 11 requirements and hence are not official supported. <a href="https://github.com/MustardChef/WSABuilds/blob/master/Documentation/Usage%20Guides/General%20Usage%20Guides/ChangingGPU.md" rel="noopener noreferrer" target="_blank">Follow this guide</a> to switch to another iGPU/dGPU/eGPU that you may have or Microsoft Basic Renderer</h5><h4>Users with Nvidia GPUs</h4><h5> Nvidia GPUs are known to cause problems. If Windows Subsystem For Android™ does not start or there are graphical glitches when an Nvidia GPU is used, <a href="https://github.com/MustardChef/WSABuilds/blob/master/Documentation/Usage%20Guides/General%20Usage%20Guides/ChangingGPU.md" rel="noopener noreferrer" target="_blank">follow this guide</a> to switch to another iGPU/dGPU/eGPU  that you may have or Microsoft Basic Renderer</h5></details></td>
+<td colspan="2">Any compatible Intel, AMD or Nvidia GPU. <br/> GPU Performance may vary depending on its compatibility with Windows Subsystem For Android™  <br/><h4>Users with Intel HD Graphics 530 and older</h4><h5> WSA may not start or graphical glitches will occur when Intel HD Graphics 530 and Older iGPUs are used. This is a known issue, but unfortunately there are no fixes that I currently know of, plus, these GPUs are too old and do not meet Windows 11 requirements and hence are not official supported.</h5><h4>Users with Nvidia GPUs</h4><h5> Nvidia GPUs are known to cause problems. If Windows Subsystem For Android™ does not start or there are graphical glitches when an Nvidia GPU is used, switch to another iGPU/dGPU/eGPU  that you may have or Microsoft Basic Renderer</h5></details></td>
 </tr>
 <tr>
 <td rowspan="2"><img height="60" src="https://img.icons8.com/3d-fluency/94/null/ssd.png" style="float: left;" width="60"/><h4>Storage<h4></h4></h4></td>
@@ -105,7 +105,7 @@
    so you need to keep them as long as you want to use Windows Subsystem For Android™. 
    Check https://learn.microsoft.com/en-us/powershell/module/appx/add-appxpackage?view=windowsserver2022-ps for more details.
 2. You need to register your Windows Subsystem For Android™ appx package before you can run Windows Subsystem For Android™. 
-   For [WSABuilds](https://github.com/MustardChef/WSABuilds) and [MagiskOnWSALocal](https://github.com/LSPosed/MagiskOnWSALocal) users, you need to run `Run.bat` in the extracted dir.
+   For WSABuilds and MagiskOnWSALocal users, you need to run `Run.bat` in the extracted dir.
    If the script fails, you can take the following steps for diagnosis (admin privilege required):
     1. Open a PowerShell window and change working directory to your Windows Subsystem For Android™ directory.
     
@@ -129,7 +129,7 @@
 > [!IMPORTANT]
 > Make sure that WSA has been turned off from the settings and that tools such has WSA-System-Control, WSA-Sideloader, WSAPacman etc are not running.
 
-1. [Download the latest build](https://github.com/MustardChef/WSABuilds#downloads) (that you want to update to)
+1. Download the latest build (that you want to update to)
 
 2. Make sure Windows Subsystem For Android is not running (Click on "Turn off" in the WSA Settings and wait for the spinning loader to disappear)
 
@@ -231,8 +231,6 @@ After removing the lines above, run the script.
 
 When the Powershell window states "Press any key to quit", at that time multiple dialouge boxes will open:
 
-![image](https://github.com/MustardChef/WSABuilds/assets/68516357/53ba5738-a504-4c31-a414-40258180ee09)
-
 > [!IMPORTANT]
 > ****Ignore these and do not click on anything or close these popups****
 
@@ -328,10 +326,7 @@ wsa://com.apple.android.music
 ---
 
 - ##### This GitHub repository/project is license under the "AGPL v3" License.
-   - ([License File](https://github.com/MustardChef/WSABuilds/blob/master/LICENSE)) 
-- ##### ["WSABuilds Project Logo"](https://github.com/MustardChef/WSABuilds/assets/68516357/35cd1d5d-e464-4eb8-a676-b451341f65ad) and other media (images and videos) are licensed under "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International" License.
-   - ([License File](https://github.com/MustardChef/WSABuilds/blob/master/LICENSE-CC-BY-NC-ND))
+- ##### WSABuilds Project Logo and other media (images and videos) are licensed under "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International" License.
 - ##### Images from Icons8.com are licensed under the Icons8 License.
-   - ([License](https://intercom.help/icons8-7fb7577e8170/en/articles/5534926-universal-multimedia-license-agreement-for-icons8))
 
 Please read the following Licenses in full before copy, modifiying, adapting and forking any of the content, code, images, videos and/or information from this GitHub repository.
