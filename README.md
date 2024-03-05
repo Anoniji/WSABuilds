@@ -96,7 +96,7 @@
 9. Close File Explorer
 10. **Enjoy**
 
---- 
+<HR>
 
 ### Notice (Applicable for both Windows 10 and 11):
 
